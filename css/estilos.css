@@ -1,0 +1,63 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: YuseiMagic-Regular;
+  background-color: chocolate;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  font-size: 18px;
+  color: blue;
+  text-decoration: none;
+}
+
+footer a {
+  color: red;
+}
+
+.Formulario form {
+  border: 5px solid red;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.Formulario form * {
+  display: block;
+}
+
+input[type="text"] {
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 500px;
+}
+
+input[type="email"] {
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 500px;
+}
+
+input[type="submit"] {
+  background-color: royalblue;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: YuseiMagic-Regular;
+  src: url(/fonts/YuseiMagic-Regular.ttf);
+}
+
+body {
+  background-image: url(/img/fondos/degradado.jpg);
+  color: white;
+}
